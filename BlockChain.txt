@@ -1,0 +1,17 @@
+python -m pip install --user pipx
+python -m pipx ensurepath
+pip install eth-brownie
+brownie init
+copy simpleStorage file
+brownie compile
+create deploy.py
+
+pip install nodejs
+npm install -g ganache
+install npm from browser
+brownie run scripts/deploy.py
+brownie test
+
+
+
+
