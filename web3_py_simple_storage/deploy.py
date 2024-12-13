@@ -96,3 +96,9 @@ send_store_tx = w3.eth.send_raw_transaction(signed_store_txn.rawTransaction)
 tx_receipt = w3.eth.wait_for_transaction_receipt(send_store_tx)
 print("updated !")
 print(simple_storage.functions.retrieve().call())
+
+
+# py-solc-x # pip install py-solc-x
+# npm # npm install
+# web3 # pip install web3
+# python-dotenv # pip install python-dotenv
